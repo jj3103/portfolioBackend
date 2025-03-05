@@ -5,11 +5,7 @@ const useMediaQuery = (query) => {
 
   useEffect(() => {
     const media = window.matchMedia(query);
-
-    // Corrected event listener function
     const listener = (event) => setMatches(event.matches);
-
-    // Use `addEventListener` instead of `addListener`
     media.addEventListener("change", listener);
 
     return () => {

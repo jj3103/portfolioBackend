@@ -109,9 +109,6 @@ const Filter = ({ onFilter }) => {
                                 Grade {grade}
                             </label>
                         ))}
-
-
-
                         {/* Tabs */}
                         <h3 className="font-medium text-sm mt-4 mb-2">Status</h3>
                         {["saved", "shared", "achievement"].map((tab) => (

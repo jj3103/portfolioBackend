@@ -8,11 +8,8 @@ const NavBar = () => {
 
     return (
         <div className="h-19 bg-white border-b border-gray-200 shadow-md px-4 flex justify-between items-center w-full flex-wrap min-w-0">
-
-            {/* Left Section: Portfolio & Tabs */}
             <div className="flex flex-col sm:hidden">
                 <h1 className="text-xl font-bold pb-1 mt-4">Portfolio</h1>
-                {/* Tabs - Only Visible on Small Screens */}
                 <div className="flex gap-4">
                     {tabs.map((tab) => (
                         <button
@@ -30,10 +27,7 @@ const NavBar = () => {
             </div>
 
             <div className="flex-1 min-w-0"></div>
-
-            {/* Right Section: Notification & Profile */}
             <div className="flex items-center space-x-4">
-                {/* Notification Bell */}
                 <div className="relative flex-shrink-0">
                     <button className="p-2 rounded-full hover:bg-gray-100">
                         <Bell className="w-6 h-6 text-gray-500" />
@@ -42,8 +36,6 @@ const NavBar = () => {
                         </span>
                     </button>
                 </div>
-
-                {/* User Profile - Only Visible on Large Screens */}
                 <div className="hidden sm:flex items-center">
                     <img src="/user.png" alt="User profile" className="h-8 w-8 rounded-full" />
                     <div className="ml-2">

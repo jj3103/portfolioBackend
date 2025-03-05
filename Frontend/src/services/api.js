@@ -34,8 +34,6 @@ const searchProjects = async (query) => {
 const filterProjects = async (query) => {
   try {
     const { tab, published, grade } = query;
-
-    // Ensure tab and grade are always arrays before using .join()
     const safeTab = Array.isArray(tab) ? tab : tab ? [tab] : undefined;
     const safeGrade = Array.isArray(grade)
       ? grade
