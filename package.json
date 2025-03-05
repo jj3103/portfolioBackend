@@ -1,0 +1,21 @@
+{
+  "name": "portfoliodemo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd backend && npm install && npm run build && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jj3103/portfolioBackend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jj3103/portfolioBackend/issues"
+  },
+  "homepage": "https://github.com/jj3103/portfolioBackend#readme",
+  "description": ""
+}
