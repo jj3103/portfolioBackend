@@ -2,7 +2,7 @@
 
 ## 🌟 Overview
 
-This is my personal portfolio website, built with **React (Vite) for the frontend** and **Strapi for the backend**. The website is fully responsive, ensuring a seamless experience across web and mobile devices.
+This is my portfolio website, built with **React (Vite) for the frontend** and **Strapi for the backend**. The website is fully responsive, ensuring a seamless experience across web and mobile devices.
 
 ## 🛠️ Tech Stack
 
@@ -10,7 +10,7 @@ This is my personal portfolio website, built with **React (Vite) for the fronten
 - **Backend:** Strapi (Headless CMS)
 - **Database:** MySql
 - **Deployment:**
-  - Frontend → [Vercel](https://vercel.com/)
+  - Frontend → [[Vercel](https://vercel.com/)](https://portfolio-backend-beta-coral.vercel.app/)
 
 ## ✨ Features
 
@@ -27,77 +27,22 @@ This is my personal portfolio website, built with **React (Vite) for the fronten
 
 ### 📱 Mobile View
 
-![Mobile Screenshot 1](Frontend/public/readme/image1.png)
-![Mobile Screenshot 1](Frontend/public/readme/image2.png)
+<img src="Frontend/public/readme/image1.png" alt="Mobile Screenshot 1" width="300">
 
-## 📂 Project Structure
+### 📱 Mobile View(Filter)
 
-```
-/portfolio-frontend
-│── src/
-│   ├── components/   # Reusable UI components
-│   ├── pages/        # Page components
-│   ├── assets/       # Images & static files
-│   ├── styles/       # Global styling
-│── public/           # Static assets
-│── vite.config.js    # Vite configuration
-│── package.json      # Dependencies & scripts
+<img src="Frontend/public/readme/image2.png" alt="Mobile Screenshot 2" width="300">
 
-/portfolio-backend
-│── api/              # Strapi API endpoints
-│── config/           # Configuration files
-│── database/         # Database settings
-│── package.json      # Dependencies & scripts
-│── server.js         # Backend entry point
-```
-
-## 🚀 Getting Started
-
-### 1️⃣ Clone the Repository
-
-```sh
-git clone https://github.com/jj3103/portfolioBackend.git
-```
-
-### 2️⃣ Install Dependencies
-
-**Frontend:**
-
-```sh
-cd portfolio-frontend
-npm install
-```
-
-**Backend:**
-
-```sh
-cd portfolio-backend
-npm install
-```
-
-### 3️⃣ Run the Project
-
-**Frontend:**
-
-```sh
-npm run dev
-```
-
-**Backend:**
-
-```sh
-npm run develop
-```
 
 ## 🌐 Live Demo
 
-- **Frontend (Vercel):** [Portfolio Live Link](#)
-- **Backend (Heroku or other host):** [Backend API](#)
+- **Frontend (Vercel):** https://portfolio-backend-beta-coral.vercel.app/
+
 
 ## 📬 Contact
 
 If you have any questions or feedback, feel free to reach out!
 
-- **Email:** [your-email@example.com]
-- **LinkedIn:** [Your LinkedIn Profile](#)
-- **GitHub:** [Your GitHub Profile](#)
+- **Email:** jainjayesh2003@gmail.com
+- **LinkedIn:** https://www.linkedin.com/in/jayesh-jain-8b65bb188/
+
